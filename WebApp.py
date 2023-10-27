@@ -643,7 +643,7 @@ def Info():
                 | Metric                           | Score   |
                 |----------------------------------|---------|
                 | Matthews Correlation Coefficient | 88.81 % |
-                | F1 Score                         | 94.61 % |
+                | F1_Score                         | 94.61 % |
                 | Accuracy Score                   | 94.40 % |
                 | Recall Score                     | 95.18 % |
                 | Precision Score                  | 94.04 % |
@@ -692,7 +692,7 @@ def Info():
                 | Metric                           | Score   |
                 |----------------------------------|---------|
                 | Matthews Correlation Coefficient | 86.89 % |
-                | F1 Score                         | 93.12 % |
+                | F1_Score                         | 93.12 % |
                 | Accuracy Score                   | 93.33 % |
                 | Recall Score                     | 89.85 % |
                 | Precision Score                  | 96.63 % |
@@ -741,7 +741,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 95.17 %                 |
-                | F1 Score                         | 97.56 %                 |
+                | F1_Score                         | 97.56 %                 |
                 | Accuracy Score                   | 97.57 %                 |
                 | Recall Score                     | 96.66 %                 |
                 | Precision Score                  | 98.47 %                 |
@@ -791,7 +791,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 95.72 %                 |
-                | F1 Score                         | 97.88 %                 |
+                | F1_Score                         | 97.88 %                 |
                 | Accuracy Score                   | 97.86 %                 |
                 | Recall Score                     | 97.52 %                 |
                 | Precision Score                  | 98.24 %                 |
@@ -842,7 +842,7 @@ def Info():
                 | Metric                           | Score   |
                 |----------------------------------|---------|
                 | Matthews Correlation Coefficient | 98.23 % |
-                | F1 Score                         | 99.12 % |
+                | F1_Score                         | 99.12 % |
                 | Accuracy Score                   | 99.11 % |
                 | Recall Score                     | 99.20 % |
                 | Precision Score                  | 99.03 % |
@@ -891,7 +891,7 @@ def Info():
                 | Metric                           | Score   |
                 |----------------------------------|---------|
                 | Matthews Correlation Coefficient | 94.80 % |
-                | F1 Score                         | 97.36 % |
+                | F1_Score                         | 97.36 % |
                 | Accuracy Score                   | 97.39 % |
                 | Recall Score                     | 96.35 % |
                 | Precision Score                  | 98.39 % |
@@ -945,7 +945,7 @@ def Info():
                 | Metric                           | Score   |
                 |----------------------------------|---------|
                 | Matthews Correlation Coefficient | 82.78 % |
-                | F1 Score                         | 91.86 % |
+                | F1_Score                         | 91.86 % |
                 | Accuracy Score                   | 91.30 % |
                 | Recall Score                     | 95.18 % |
                 | Precision Score                  | 88.76 % |
@@ -994,7 +994,7 @@ def Info():
                 | Metric                           | Score   |
                 |----------------------------------|---------|
                 | Matthews Correlation Coefficient | 99.97 % |
-                | F1 Score                         | 99.99 % |
+                | F1_Score                         | 99.99 % |
                 | Accuracy Score                   | 99.99 % |
                 | Recall Score                     | 100.0 % |
                 | Precision Score                  | 99.97 % |
@@ -1043,7 +1043,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 99.76 %                 |
-                | F1 Score                         | 99.88 %                 |
+                | F1_Score                         | 99.88 %                 |
                 | Accuracy Score                   | 99.88 %                 |
                 | Recall Score                     | 99.94 %                 |
                 | Precision Score                  | 99.82 %                 |
@@ -1064,7 +1064,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 50322      |
                 | 1                | 1.00      | 1.00   | 1.00     | 50679      |
@@ -1093,7 +1093,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 99.76 %                 |
-                | F1 Score                         | 99.88 %                 |
+                | F1_Score                         | 99.88 %                 |
                 | Accuracy Score                   | 99.88 %                 |
                 | Recall Score                     | 99.94 %                 |
                 | Precision Score                  | 99.82 %                 |
@@ -1114,7 +1114,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 47555      |
                 | 1                | 1.00      | 1.00   | 1.00     | 48779      |
@@ -1144,7 +1144,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 99.92 %                 |
-                | F1 Score                         | 99.96 %                 |
+                | F1_Score                         | 99.96 %                 |
                 | Accuracy Score                   | 99.96 %                 |
                 | Recall Score                     | 99.98 %                 |
                 | Precision Score                  | 99.94 %                 |
@@ -1165,7 +1165,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 50322      |
                 | 1                | 1.00      | 1.00   | 1.00     | 50679      |
@@ -1194,7 +1194,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 99.79 %                 |
-                | F1 Score                         | 99.89 %                 |
+                | F1_Score                         | 99.89 %                 |
                 | Accuracy Score                   | 99.89 %                 |
                 | Recall Score                     | 99.93 %                 |
                 | Precision Score                  | 99.86 %                 |
@@ -1215,7 +1215,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 50575      |
                 | 1                | 1.00      | 1.00   | 1.00     | 50418      |
@@ -1250,7 +1250,7 @@ def Info():
                 | Metric                           | Score   |
                 |----------------------------------|---------|
                 | Matthews Correlation Coefficient | 93.86 % |
-                | F1 Score                         | 96.93 % |
+                | F1_Score                         | 96.93 % |
                 | Accuracy Score                   | 96.89 % |
                 | Recall Score                     | 95.18 % |
                 | Precision Score                  | 98.75 % |
@@ -1299,7 +1299,7 @@ def Info():
                 | Metric                           | Score   |
                 |----------------------------------|---------|
                 | Matthews Correlation Coefficient | 99.99 % |
-                | F1 Score                         | 99.99 % |
+                | F1_Score                         | 99.99 % |
                 | Accuracy Score                   | 99.99 % |
                 | Recall Score                     | 100.0 % |
                 | Precision Score                  | 99.99 % |
@@ -1348,7 +1348,7 @@ def Info():
                 | Metric                           | Score   |
                 |----------------------------------|---------|
                 | Matthews Correlation Coefficient | 99.98 % |
-                | F1 Score                         | 99.99 % |
+                | F1_Score                         | 99.99 % |
                 | Accuracy Score                   | 99.99 % |
                 | Recall Score                     | 100.0 % |
                 | Precision Score                  | 99.98 % |
@@ -1396,7 +1396,7 @@ def Info():
                 | Metric                           | Score   |
                 |----------------------------------|---------|
                 | Matthews Correlation Coefficient | 99.97 % |
-                | F1 Score                         | 99.98 % |
+                | F1_Score                         | 99.98 % |
                 | Accuracy Score                   | 99.98 % |
                 | Recall Score                     | 99.98 % |
                 | Precision Score                  | 99.98 % |
@@ -1445,7 +1445,7 @@ def Info():
                 | Metric                           | Score   |
                 |----------------------------------|---------|
                 | Matthews Correlation Coefficient | 99.98 % |
-                | F1 Score                         | 99.99 % |
+                | F1_Score                         | 99.99 % |
                 | Accuracy Score                   | 99.99 % |
                 | Recall Score                     | 99.99 % |
                 | Precision Score                  | 99.99 % |
@@ -1494,7 +1494,7 @@ def Info():
                 | Metric                           | Score   |
                 |----------------------------------|---------|
                 | Matthews Correlation Coefficient | 99.98 % |
-                | F1 Score                         | 99.99 % |
+                | F1_Score                         | 99.99 % |
                 | Accuracy Score                   | 99.99 % |
                 | Recall Score                     | 100.0 % |
                 | Precision Score                  | 99.99 % |
@@ -1548,7 +1548,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 92.54 %                 |
-                | F1 Score                         | 96.39 %                 |
+                | F1_Score                         | 96.39 %                 |
                 | Accuracy Score                   | 96.27 %                 |
                 | Recall Score                     | 96.39 %                 |
                 | Precision Score                  | 96.39 %                 |
@@ -1569,7 +1569,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.96      | 0.96   | 0.96     | 78         |
                 | 1                | 0.96      | 0.96   | 0.96     | 83         |
@@ -1598,7 +1598,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 99.98 %                 |
-                | F1 Score                         | 99.99 %                 |
+                | F1_Score                         | 99.99 %                 |
                 | Accuracy Score                   | 99.99 %                 |
                 | Recall Score                     | 100.0 %                 |
                 | Precision Score                  | 99.98 %                 |
@@ -1619,7 +1619,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 50322      |
                 | 1                | 1.00      | 1.00   | 1.00     | 50679      |
@@ -1648,7 +1648,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 99.98 %                 |
-                | F1 Score                         | 99.99 %                 |
+                | F1_Score                         | 99.99 %                 |
                 | Accuracy Score                   | 99.99 %                 |
                 | Recall Score                     | 100.0 %                 |
                 | Precision Score                  | 99.98 %                 |
@@ -1669,7 +1669,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 50322      |
                 | 1                | 1.00      | 1.00   | 1.00     | 50679      |
@@ -1697,7 +1697,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 99.97 %                 |
-                | F1 Score                         | 99.98 %                 |
+                | F1_Score                         | 99.98 %                 |
                 | Accuracy Score                   | 99.98 %                 |
                 | Recall Score                     | 99.99 %                 |
                 | Precision Score                  | 99.98 %                 |
@@ -1718,7 +1718,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 47555      |
                 | 1                | 1.00      | 1.00   | 1.00     | 48779      |
@@ -1749,7 +1749,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 99.97 %                 |
-                | F1 Score                         | 99.99 %                 |
+                | F1_Score                         | 99.99 %                 |
                 | Accuracy Score                   | 99.99 %                 |
                 | Recall Score                     | 99.99 %                 |
                 | Precision Score                  | 99.98 %                 |
@@ -1770,7 +1770,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 50322      |
                 | 1                | 1.00      | 1.00   | 1.00     | 50679      |
@@ -1800,7 +1800,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 99.97 %                 |
-                | F1 Score                         | 99.99 %                 |
+                | F1_Score                         | 99.99 %                 |
                 | Accuracy Score                   | 99.99 %                 |
                 | Recall Score                     | 99.99 %                 |
                 | Precision Score                  | 99.97 %                 |
@@ -1821,7 +1821,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 50575      |
                 | 1                | 1.00      | 1.00   | 1.00     | 50418      |
@@ -1887,7 +1887,7 @@ def Info():
                 | Metric                           | Score             |
                 |----------------------------------|-------------------|
                 | Matthews Correlation Coefficient | 03.94 %           |
-                | F1 Score                         | 37.40 %           |
+                | F1_Score                         | 37.40 %           |
                 | Accuracy Score                   | 52.47 %           |
                 | Recall Score                     | 29.32 %           |
                 | Precision Score                  | 51.61 %           |
@@ -1932,7 +1932,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 12.14 %                 |
-                | F1 Score                         | 56.25 %                 |
+                | F1_Score                         | 56.25 %                 |
                 | Accuracy Score                   | 56.06 %                 |
                 | Recall Score                     | 56.95 %                 |
                 | Precision Score                  | 55.56 %                 |
@@ -1951,7 +1951,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.57      | 0.55   | 0.56     | 39260      |
                 | 1                | 0.56      | 0.57   | 0.56     | 38633      |
@@ -1976,7 +1976,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 05.01 %                 |
-                | F1 Score                         | 53.40 %                 |
+                | F1_Score                         | 53.40 %                 |
                 | Accuracy Score                   | 52.48 %                 |
                 | Recall Score                     | 54.90 %                 |
                 | Precision Score                  | 51.99 %                 |
@@ -1995,7 +1995,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.53      | 0.50   | 0.52     | 39260      |
                 | 1                | 0.52      | 0.55   | 0.53     | 38633      |
@@ -2020,7 +2020,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 05.24 %                 |
-                | F1 Score                         | 60.91 %                 |
+                | F1_Score                         | 60.91 %                 |
                 | Accuracy Score                   | 53.43 %                 |
                 | Recall Score                     | 68.50 %                 |
                 | Precision Score                  | 54.83 %                 |
@@ -2039,7 +2039,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.51      | 0.36   | 0.42     | 33982      |
                 | 1                | 0.55      | 0.68   | 0.61     | 38266      |
@@ -2064,7 +2064,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 08.58 %                 |
-                | F1 Score                         | 55.39 %                 |
+                | F1_Score                         | 55.39 %                 |
                 | Accuracy Score                   | 54.26 %                 |
                 | Recall Score                     | 57.26 %                 |
                 | Precision Score                  | 53.64 %                 |
@@ -2083,7 +2083,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.55      | 0.51   | 0.53     | 39260      |
                 | 1                | 0.54      | 0.57   | 0.55     | 38633      |
@@ -2108,7 +2108,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 04.98 %                 |
-                | F1 Score                         | 53.72 %                 |
+                | F1_Score                         | 53.72 %                 |
                 | Accuracy Score                   | 52.47 %                 |
                 | Recall Score                     | 55.44 %                 |
                 | Precision Score                  | 52.11 %                 |
@@ -2127,7 +2127,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.53      | 0.50   | 0.51     | 39212      |
                 | 1                | 0.52      | 0.55   | 0.54     | 38845      |
@@ -2158,7 +2158,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 38.80 %                 |
-                | F1 Score                         | 67.56 %                 |
+                | F1_Score                         | 67.56 %                 |
                 | Accuracy Score                   | 69.46 %                 |
                 | Recall Score                     | 65.71 %                 |
                 | Precision Score                  | 69.53 %                 |
@@ -2177,7 +2177,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.69      | 0.73   | 0.71     | 407        |
                 | 1                | 0.70      | 0.66   | 0.68     | 382        |
@@ -2202,7 +2202,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 98.91 %                 |
-                | F1 Score                         | 99.45 %                 |
+                | F1_Score                         | 99.45 %                 |
                 | Accuracy Score                   | 99.45 %                 |
                 | Recall Score                     | 100.0 %                 |
                 | Precision Score                  | 98.90 %                 |
@@ -2221,7 +2221,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 0.99   | 0.99     | 39260      |
                 | 1                | 0.99      | 1.00   | 0.99     | 38633      |
@@ -2246,7 +2246,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 89.57 %                 |
-                | F1 Score                         | 94.79 %                 |
+                | F1_Score                         | 94.79 %                 |
                 | Accuracy Score                   | 94.78 %                 |
                 | Recall Score                     | 95.69 %                 |
                 | Precision Score                  | 93.90 %                 |
@@ -2265,7 +2265,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.96      | 0.94   | 0.95     | 39260      |
                 | 1                | 0.94      | 0.96   | 0.95     | 38633      |
@@ -2291,7 +2291,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 89.13 %                 |
-                | F1 Score                         | 94.94 %                 |
+                | F1_Score                         | 94.94 %                 |
                 | Accuracy Score                   | 94.58 %                 |
                 | Recall Score                     | 95.94 %                 |
                 | Precision Score                  | 93.96 %                 |
@@ -2310,7 +2310,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.95      | 0.93   | 0.94     | 33982      |
                 | 1                | 0.94      | 0.96   | 0.95     | 38266      |
@@ -2335,7 +2335,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 95.62 %                 |
-                | F1 Score                         | 97.80 %                 |
+                | F1_Score                         | 97.80 %                 |
                 | Accuracy Score                   | 97.80 %                 |
                 | Recall Score                     | 98.58 %                 |
                 | Precision Score                  | 97.03 %                 |
@@ -2354,7 +2354,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.99      | 0.97   | 0.98     | 39260      |
                 | 1                | 0.97      | 0.99   | 0.98     | 38633      |
@@ -2380,7 +2380,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 89.45 %                 |
-                | F1 Score                         | 94.74 %                 |
+                | F1_Score                         | 94.74 %                 |
                 | Accuracy Score                   | 94.72 %                 |
                 | Recall Score                     | 95.57 %                 |
                 | Precision Score                  | 93.92 %                 |
@@ -2399,7 +2399,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.96      | 0.94   | 0.95     | 39212      |
                 | 1                | 0.94      | 0.96   | 0.95     | 38845      |
@@ -2430,7 +2430,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 53.29 %                 |
-                | F1 Score                         | 75.60 %                 |
+                | F1_Score                         | 75.60 %                 |
                 | Accuracy Score                   | 76.68 %                 |
                 | Recall Score                     | 74.61 %                 |
                 | Precision Score                  | 76.61 %                 |
@@ -2449,7 +2449,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.77      | 0.79   | 0.78     | 407        |
                 | 1                | 0.77      | 0.75   | 0.76     | 382        |
@@ -2474,7 +2474,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 99.97 %                 |
-                | F1 Score                         | 99.98 %                 |
+                | F1_Score                         | 99.98 %                 |
                 | Accuracy Score                   | 99.98 %                 |
                 | Recall Score                     | 100.0 %                 |
                 | Precision Score                  | 99.97 %                 |
@@ -2493,7 +2493,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 39260      |
                 | 1                | 1.00      | 1.00   | 1.00     | 38633      |
@@ -2518,7 +2518,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 97.26 %                 |
-                | F1 Score                         | 98.62 %                 |
+                | F1_Score                         | 98.62 %                 |
                 | Accuracy Score                   | 98.63 %                 |
                 | Recall Score                     | 98.88 %                 |
                 | Precision Score                  | 98.37 %                 |
@@ -2537,7 +2537,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.99      | 0.98   | 0.99     | 39260      |
                 | 1                | 0.98      | 0.99   | 0.99     | 38633      |
@@ -2563,7 +2563,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 97.39 %                 |
-                | F1 Score                         | 98.78 %                 |
+                | F1_Score                         | 98.78 %                 |
                 | Accuracy Score                   | 98.70 %                 |
                 | Recall Score                     | 99.11 %                 |
                 | Precision Score                  | 98.45 %                 |
@@ -2582,7 +2582,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.99      | 0.98   | 0.99     | 33982      |
                 | 1                | 0.98      | 0.99   | 0.99     | 38266      |
@@ -2609,7 +2609,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 98.94 %                 |
-                | F1 Score                         | 99.46 %                 |
+                | F1_Score                         | 99.46 %                 |
                 | Accuracy Score                   | 99.47 %                 |
                 | Recall Score                     | 99.03 %                 |
                 | Precision Score                  | 99.90 %                 |
@@ -2628,7 +2628,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.99      | 1.00   | 0.99     | 39260      |
                 | 1                | 1.00      | 0.99   | 0.99     | 38633      |
@@ -2654,7 +2654,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 97.45 %                 |
-                | F1 Score                         | 98.72 %                 |
+                | F1_Score                         | 98.72 %                 |
                 | Accuracy Score                   | 98.72 %                 |
                 | Recall Score                     | 98.97 %                 |
                 | Precision Score                  | 98.48 %                 |
@@ -2673,7 +2673,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.99      | 0.98   | 0.99     | 39212      |
                 | 1                | 0.98      | 0.99   | 0.99     | 38845      |
@@ -2704,7 +2704,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 63.96 %                 |
-                | F1 Score                         | 81.32 %                 |
+                | F1_Score                         | 81.32 %                 |
                 | Accuracy Score                   | 82.00 %                 |
                 | Recall Score                     | 80.89 %                 |
                 | Precision Score                  | 81.75 %                 |
@@ -2723,7 +2723,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.82      | 0.83   | 0.83     | 407        |
                 | 1                | 0.82      | 0.81   | 0.81     | 382        |
@@ -2750,7 +2750,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 91.29 %                 |
-                | F1 Score                         | 95.64 %                 |
+                | F1_Score                         | 95.64 %                 |
                 | Accuracy Score                   | 95.50 %                 |
                 | Recall Score                     | 99.48 %                 |
                 | Precision Score                  | 92.08 %                 |
@@ -2769,7 +2769,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.99      | 0.92   | 0.95     | 39260      |
                 | 1                | 0.92      | 0.99   | 0.96     | 38633      |
@@ -2795,7 +2795,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 90.74 %                 |
-                | F1 Score                         | 95.39 %                 |
+                | F1_Score                         | 95.39 %                 |
                 | Accuracy Score                   | 95.34 %                 |
                 | Recall Score                     | 97.12 %                 |
                 | Precision Score                  | 93.72 %                 |
@@ -2814,7 +2814,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.97      | 0.94   | 0.95     | 39260      |
                 | 1                | 0.94      | 0.97   | 0.95     | 38633      |
@@ -2840,7 +2840,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 90.74 %                 |
-                | F1 Score                         | 95.70 %                 |
+                | F1_Score                         | 95.70 %                 |
                 | Accuracy Score                   | 95.36 %                 |
                 | Recall Score                     | 97.57 %                 |
                 | Precision Score                  | 93.90 %                 |
@@ -2859,7 +2859,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.97      | 0.93   | 0.95     | 33982      |
                 | 1                | 0.94      | 0.98   | 0.96     | 38266      |
@@ -2886,7 +2886,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 95.26 %                 |
-                | F1 Score                         | 97.62 %                 |
+                | F1_Score                         | 97.62 %                 |
                 | Accuracy Score                   | 97.62 %                 |
                 | Recall Score                     | 98.47 %                 |
                 | Precision Score                  | 96.79 %                 |
@@ -2905,7 +2905,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.98      | 0.97   | 0.98     | 39260      |
                 | 1                | 0.97      | 0.98   | 0.98     | 38633      |
@@ -2930,7 +2930,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 90.51 %                 |
-                | F1 Score                         | 95.29 %                 |
+                | F1_Score                         | 95.29 %                 |
                 | Accuracy Score                   | 95.23 %                 |
                 | Recall Score                     | 97.07 %                 |
                 | Precision Score                  | 93.58 %                 |
@@ -2949,7 +2949,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.97      | 0.93   | 0.95     | 39212      |
                 | 1                | 0.94      | 0.97   | 0.95     | 38845      |
@@ -3027,7 +3027,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 27.49 %                 |
-                | F1 Score                         | 61.71 %                 |
+                | F1_Score                         | 61.71 %                 |
                 | Accuracy Score                   | 63.61 %                 |
                 | Recall Score                     | 58.11 %                 |
                 | Precision Score                  | 65.79 %                 |
@@ -3046,7 +3046,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.62      | 0.69   | 0.65     | 968        |
                 | 1                | 0.66      | 0.58   | 0.62     | 986        |
@@ -3071,7 +3071,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 38.08 %                 |
-                | F1 Score                         | 66.04 %                 |
+                | F1_Score                         | 66.04 %                 |
                 | Accuracy Score                   | 68.69 %                 |
                 | Recall Score                     | 60.27 %                 |
                 | Precision Score                  | 73.02 %                 |
@@ -3090,7 +3090,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.66      | 0.77   | 0.71     | 11233      |
                 | 1                | 0.73      | 0.60   | 0.66     | 11462      |
@@ -3115,7 +3115,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 32.97 %                 |
-                | F1 Score                         | 64.10 %                 |
+                | F1_Score                         | 64.10 %                 |
                 | Accuracy Score                   | 66.27 %                 |
                 | Recall Score                     | 59.61 %                 |
                 | Precision Score                  | 69.31 %                 |
@@ -3134,7 +3134,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.64      | 0.73   | 0.68     | 11233      |
                 | 1                | 0.69      | 0.60   | 0.64     | 11462      |
@@ -3159,7 +3159,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 44.13 %                 |
-                | F1 Score                         | 73.59 %                 |
+                | F1_Score                         | 73.59 %                 |
                 | Accuracy Score                   | 72.00 %                 |
                 | Recall Score                     | 70.46 %                 |
                 | Precision Score                  | 77.02 %                 |
@@ -3178,7 +3178,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.67      | 0.74   | 0.70     | 7049       |
                 | 1                | 0.77      | 0.70   | 0.74     | 8746       |
@@ -3203,7 +3203,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 44.79 %                 |
-                | F1 Score                         | 69.97 %                 |
+                | F1_Score                         | 69.97 %                 |
                 | Accuracy Score                   | 72.06 %                 |
                 | Recall Score                     | 64.43 %                 |
                 | Precision Score                  | 76.54 %                 |
@@ -3222,7 +3222,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.69      | 0.80   | 0.74     | 11233      |
                 | 1                | 0.77      | 0.64   | 0.70     | 11462      |
@@ -3247,7 +3247,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 46.11 %                 |
-                | F1 Score                         | 70.31 %                 |
+                | F1_Score                         | 70.31 %                 |
                 | Accuracy Score                   | 72.67 %                 |
                 | Recall Score                     | 64.25 %                 |
                 | Precision Score                  | 77.63 %                 |
@@ -3266,7 +3266,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.69      | 0.81   | 0.75     | 11270      |
                 | 1                | 0.78      | 0.64   | 0.70     | 11436      |
@@ -3297,7 +3297,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 68.59 %                 |
-                | F1 Score                         | 84.61 %                 |
+                | F1_Score                         | 84.61 %                 |
                 | Accuracy Score                   | 84.29 %                 |
                 | Recall Score                     | 85.60 %                 |
                 | Precision Score                  | 83.65 %                 |
@@ -3316,7 +3316,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.85      | 0.83   | 0.84     | 968        |
                 | 1                | 0.84      | 0.86   | 0.85     | 986        |
@@ -3341,7 +3341,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 96.79 %                 |
-                | F1 Score                         | 98.41 %                 |
+                | F1_Score                         | 98.41 %                 |
                 | Accuracy Score                   | 98.37 %                 |
                 | Recall Score                     | 100.0 %                 |
                 | Precision Score                  | 96.87 %                 |
@@ -3360,7 +3360,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 0.97   | 0.98     | 11233      |
                 | 1                | 0.97      | 1.00   | 0.98     | 11462      |
@@ -3385,7 +3385,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 94.31 %                 |
-                | F1 Score                         | 97.19 %                 |
+                | F1_Score                         | 97.19 %                 |
                 | Accuracy Score                   | 97.15 %                 |
                 | Recall Score                     | 97.44 %                 |
                 | Precision Score                  | 96.94 %                 |
@@ -3404,7 +3404,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.97      | 0.97   | 0.97     | 11233      |
                 | 1                | 0.97      | 0.97   | 0.97     | 11462      |
@@ -3430,7 +3430,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 92.95 %                 |
-                | F1 Score                         | 96.86 %                 |
+                | F1_Score                         | 96.86 %                 |
                 | Accuracy Score                   | 96.52 %                 |
                 | Recall Score                     | 97.00 %                 |
                 | Precision Score                  | 96.72 %                 |
@@ -3449,7 +3449,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.96      | 0.96   | 0.96     | 7049       |
                 | 1                | 0.97      | 0.97   | 0.97     | 8746       |
@@ -3474,7 +3474,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 93.82 %                 |
-                | F1 Score                         | 96.95 %                 |
+                | F1_Score                         | 96.95 %                 |
                 | Accuracy Score                   | 96.91 %                 |
                 | Recall Score                     | 97.37 %                 |
                 | Precision Score                  | 96.55 %                 |
@@ -3493,7 +3493,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.97      | 0.96   | 0.97     | 11233      |
                 | 1                | 0.97      | 0.97   | 0.97     | 11462      |
@@ -3519,7 +3519,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 93.69 %                 |
-                | F1 Score                         | 96.88 %                 |
+                | F1_Score                         | 96.88 %                 |
                 | Accuracy Score                   | 96.84 %                 |
                 | Recall Score                     | 97.23 %                 |
                 | Precision Score                  | 96.53 %                 |
@@ -3538,7 +3538,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.97      | 0.96   | 0.97     | 11270      |
                 | 1                | 0.97      | 0.97   | 0.97     | 11436      |
@@ -3569,7 +3569,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 77.79 %                 |
-                | F1 Score                         | 88.67 %                 |
+                | F1_Score                         | 88.67 %                 |
                 | Accuracy Score                   | 88.84 %                 |
                 | Recall Score                     | 86.51 %                 |
                 | Precision Score                  | 90.94 %                 |
@@ -3588,7 +3588,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.87      | 0.91   | 0.89     | 968        |
                 | 1                | 0.91      | 0.87   | 0.89     | 986        |
@@ -3614,7 +3614,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 98.99 %                 |
-                | F1 Score                         | 99.50 %                 |
+                | F1_Score                         | 99.50 %                 |
                 | Accuracy Score                   | 99.49 %                 |
                 | Recall Score                     | 100.0 %                 |
                 | Precision Score                  | 99.00 %                 |
@@ -3633,7 +3633,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 0.99   | 0.99     | 11233      |
                 | 1                | 0.99      | 1.00   | 1.00     | 11462      |
@@ -3658,7 +3658,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 96.50 %                 |
-                | F1 Score                         | 98.24 %                 |
+                | F1_Score                         | 98.24 %                 |
                 | Accuracy Score                   | 98.24 %                 |
                 | Recall Score                     | 97.29 %                 |
                 | Precision Score                  | 99.22 %                 |
@@ -3677,7 +3677,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.97      | 0.99   | 0.98     | 11233      |
                 | 1                | 0.99      | 0.97   | 0.98     | 11462      |
@@ -3702,7 +3702,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 96.27 %                 |
-                | F1 Score                         | 98.30 %                 |
+                | F1_Score                         | 98.30 %                 |
                 | Accuracy Score                   | 98.14 %                 |
                 | Recall Score                     | 97.28 %                 |
                 | Precision Score                  | 99.35 %                 |
@@ -3721,7 +3721,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.97      | 0.99   | 0.98     | 7049       |
                 | 1                | 0.99      | 0.97   | 0.98     | 8746       |
@@ -3746,7 +3746,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 96.22 %                 |
-                | F1 Score                         | 98.10 %                 |
+                | F1_Score                         | 98.10 %                 |
                 | Accuracy Score                   | 98.10 %                 |
                 | Recall Score                     | 97.07 %                 |
                 | Precision Score                  | 99.15 %                 |
@@ -3765,7 +3765,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.97      | 0.99   | 0.98     | 11233      |
                 | 1                | 0.99      | 0.97   | 0.98     | 11462      |
@@ -3791,7 +3791,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 96.32 %                 |
-                | F1 Score                         | 98.14 %                 |
+                | F1_Score                         | 98.14 %                 |
                 | Accuracy Score                   | 98.15 %                 |
                 | Recall Score                     | 97.09 %                 |
                 | Precision Score                  | 99.22 %                 |
@@ -3810,7 +3810,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.97      | 0.99   | 0.98     | 11270      |
                 | 1                | 0.99      | 0.97   | 0.98     | 11436      |
@@ -3841,7 +3841,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 82.54 %                 |
-                | F1 Score                         | 91.20 %                 |
+                | F1_Score                         | 91.20 %                 |
                 | Accuracy Score                   | 91.25 %                 |
                 | Recall Score                     | 89.86 %                 |
                 | Precision Score                  | 92.58 %                 |
@@ -3860,7 +3860,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.90      | 0.93   | 0.91     | 968        |
                 | 1                | 0.93      | 0.90   | 0.91     | 986        |
@@ -3886,7 +3886,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 94.40 %                 |
-                | F1 Score                         | 97.24 %                 |
+                | F1_Score                         | 97.24 %                 |
                 | Accuracy Score                   | 97.20 %                 |
                 | Recall Score                     | 97.61 %                 |
                 | Precision Score                  | 96.87 %                 |
@@ -3905,7 +3905,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.98      | 0.97   | 0.97     | 11233      |
                 | 1                | 0.97      | 0.98   | 0.97     | 11462      |
@@ -3931,7 +3931,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 97.20 %                 |
-                | F1 Score                         | 98.60 %                 |
+                | F1_Score                         | 98.60 %                 |
                 | Accuracy Score                   | 98.59 %                 |
                 | Recall Score                     | 97.84 %                 |
                 | Precision Score                  | 99.37 %                 |
@@ -3950,7 +3950,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.98      | 0.99   | 0.99     | 11233      |
                 | 1                | 0.99      | 0.98   | 0.99     | 11462      |
@@ -3976,7 +3976,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 97.30 %                 |
-                | F1 Score                         | 98.78 %                 |
+                | F1_Score                         | 98.78 %                 |
                 | Accuracy Score                   | 98.66 %                 |
                 | Recall Score                     | 98.22 %                 |
                 | Precision Score                  | 99.35 %                 |
@@ -3995,7 +3995,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.98      | 0.99   | 0.99     | 7049       |
                 | 1                | 0.99      | 0.98   | 0.99     | 8746       |
@@ -4020,7 +4020,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 97.13 %                 |
-                | F1 Score                         | 98.56 %                 |
+                | F1_Score                         | 98.56 %                 |
                 | Accuracy Score                   | 98.56 %                 |
                 | Recall Score                     | 97.78 %                 |
                 | Precision Score                  | 99.36 %                 |
@@ -4039,7 +4039,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.98      | 0.99   | 0.99     | 11233      |
                 | 1                | 0.99      | 0.98   | 0.99     | 11462      |
@@ -4064,7 +4064,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 97.12 %                 |
-                | F1 Score                         | 98.55 %                 |
+                | F1_Score                         | 98.55 %                 |
                 | Accuracy Score                   | 98.56 %                 |
                 | Recall Score                     | 97.78 %                 |
                 | Precision Score                  | 99.34 %                 |
@@ -4083,7 +4083,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.98      | 0.99   | 0.99     | 11270      |
                 | 1                | 0.99      | 0.98   | 0.99     | 11436      |
@@ -4152,7 +4152,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 12.43 %                 |
-                | F1 Score                         | 60.22 %                 |
+                | F1_Score                         | 60.22 %                 |
                 | Accuracy Score                   | 56.22 %                 |
                 | Recall Score                     | 65.46 %                 |
                 | Precision Score                  | 55.76 %                 |
@@ -4172,7 +4172,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.57      | 0.47   | 0.51     | 8119       |
                 | 1                | 0.56      | 0.65   | 0.60     | 8323       |
@@ -4197,7 +4197,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 13.35 %                 |
-                | F1 Score                         | 59.51 %                 |
+                | F1_Score                         | 59.51 %                 |
                 | Accuracy Score                   | 56.59 %                 |
                 | Recall Score                     | 63.94 %                 |
                 | Precision Score                  | 55.66 %                 |
@@ -4216,7 +4216,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.58      | 0.49   | 0.53     | 30837      |
                 | 1                | 0.56      | 0.64   | 0.60     | 30717      |
@@ -4241,7 +4241,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 14.24 %                 |
-                | F1 Score                         | 60.99 %                 |
+                | F1_Score                         | 60.99 %                 |
                 | Accuracy Score                   | 56.94 %                 |
                 | Recall Score                     | 67.46 %                 |
                 | Precision Score                  | 55.66 %                 |
@@ -4260,7 +4260,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.59      | 0.46   | 0.52     | 30837      |
                 | 1                | 0.56      | 0.67   | 0.61     | 30717      |
@@ -4285,7 +4285,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 25.31 %                 |
-                | F1 Score                         | 78.82 %                 |
+                | F1_Score                         | 78.82 %                 |
                 | Accuracy Score                   | 69.27 %                 |
                 | Recall Score                     | 85.91 %                 |
                 | Precision Score                  | 72.82 %                 |
@@ -4304,7 +4304,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.56      | 0.36   | 0.44     | 12435      |
                 | 1                | 0.73      | 0.86   | 0.79     | 24773      |
@@ -4329,7 +4329,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 15.40 %                 |
-                | F1 Score                         | 60.69 %                 |
+                | F1_Score                         | 60.69 %                 |
                 | Accuracy Score                   | 57.58 %                 |
                 | Recall Score                     | 65.61 %                 |
                 | Precision Score                  | 56.45 %                 |
@@ -4348,7 +4348,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.59      | 0.50   | 0.54     | 30837      |
                 | 1                | 0.56      | 0.66   | 0.61     | 30717      |
@@ -4373,7 +4373,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 12.64 %                 |
-                | F1 Score                         | 61.30 %                 |
+                | F1_Score                         | 61.30 %                 |
                 | Accuracy Score                   | 56.30 %                 |
                 | Recall Score                     | 68.24 %                 |
                 | Precision Score                  | 55.63 %                 |
@@ -4392,7 +4392,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.57      | 0.44   | 0.50     | 30669      |
                 | 1                | 0.56      | 0.68   | 0.61     | 31549      |
@@ -4423,7 +4423,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 08.82 %                 |
-                | F1 Score                         | 54.72 %                 |
+                | F1_Score                         | 54.72 %                 |
                 | Accuracy Score                   | 54.41 %                 |
                 | Recall Score                     | 54.43 %                 |
                 | Precision Score                  | 55.02 %                 |
@@ -4442,7 +4442,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.54      | 0.54   | 0.54     | 8119       |
                 | 1                | 0.55      | 0.54   | 0.55     | 8323       |
@@ -4467,7 +4467,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 74.58 %                 |
-                | F1 Score                         | 87.73 %                 |
+                | F1_Score                         | 87.73 %                 |
                 | Accuracy Score                   | 86.50 %                 |
                 | Recall Score                     | 96.71 %                 |
                 | Precision Score                  | 80.27 %                 |
@@ -4486,7 +4486,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.96      | 0.76   | 0.85     | 30837      |
                 | 1                | 0.80      | 0.97   | 0.88     | 30717      |
@@ -4511,7 +4511,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 53.99 %                 |
-                | F1 Score                         | 77.24 %                 |
+                | F1_Score                         | 77.24 %                 |
                 | Accuracy Score                   | 76.98 %                 |
                 | Recall Score                     | 78.26 %                 |
                 | Precision Score                  | 76.25 %                 |
@@ -4530,7 +4530,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.78      | 0.76   | 0.77     | 30837      |
                 | 1                | 0.76      | 0.78   | 0.77     | 30717      |
@@ -4556,7 +4556,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 53.70 %                 |
-                | F1 Score                         | 84.81 %                 |
+                | F1_Score                         | 84.81 %                 |
                 | Accuracy Score                   | 79.58 %                 |
                 | Recall Score                     | 85.64 %                 |
                 | Precision Score                  | 84.01 %                 |
@@ -4575,7 +4575,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.70      | 0.68   | 0.69     | 12435      |
                 | 1                | 0.84      | 0.86   | 0.85     | 24773      |
@@ -4600,7 +4600,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 53.63 %                 |
-                | F1 Score                         | 77.10 %                 |
+                | F1_Score                         | 77.10 %                 |
                 | Accuracy Score                   | 76.80 %                 |
                 | Recall Score                     | 78.27 %                 |
                 | Precision Score                  | 75.97 %                 |
@@ -4619,7 +4619,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.78      | 0.75   | 0.76     | 30837      |
                 | 1                | 0.76      | 0.78   | 0.77     | 30717      |
@@ -4645,7 +4645,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 54.20 %                 |
-                | F1 Score                         | 77.71 %                 |
+                | F1_Score                         | 77.71 %                 |
                 | Accuracy Score                   | 77.10 %                 |
                 | Recall Score                     | 78.70 %                 |
                 | Precision Score                  | 76.74 %                 |
@@ -4664,7 +4664,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.77      | 0.75   | 0.76     | 30669      |
                 | 1                | 0.77      | 0.79   | 0.78     | 31549      |
@@ -4695,7 +4695,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 22.20 %                 |
-                | F1 Score                         | 61.18 %                 |
+                | F1_Score                         | 61.18 %                 |
                 | Accuracy Score                   | 61.09 %                 |
                 | Recall Score                     | 60.57 %                 |
                 | Precision Score                  | 61.81 %                 |
@@ -4714,7 +4714,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.60      | 0.62   | 0.61     | 8119       |
                 | 1                | 0.62      | 0.61   | 0.61     | 8323       |
@@ -4739,7 +4739,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 89.69 %                 |
-                | F1 Score                         | 94.88 %                 |
+                | F1_Score                         | 94.88 %                 |
                 | Accuracy Score                   | 94.84 %                 |
                 | Recall Score                     | 95.94 %                 |
                 | Precision Score                  | 93.84 %                 |
@@ -4758,7 +4758,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.96      | 0.94   | 0.95     | 30837      |
                 | 1                | 0.94      | 0.96   | 0.95     | 30717      |
@@ -4783,7 +4783,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 72.88 %                 |
-                | F1 Score                         | 84.50 %                 |
+                | F1_Score                         | 84.50 %                 |
                 | Accuracy Score                   | 85.88 %                 |
                 | Recall Score                     | 77.09 %                 |
                 | Precision Score                  | 93.47 %                 |
@@ -4802,7 +4802,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.81      | 0.95   | 0.87     | 30837      |
                 | 1                | 0.93      | 0.77   | 0.84     | 30717      |
@@ -4827,7 +4827,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 70.53 %                 |
-                | F1 Score                         | 90.41 %                 |
+                | F1_Score                         | 90.41 %                 |
                 | Accuracy Score                   | 87.05 %                 |
                 | Recall Score                     | 91.72 %                 |
                 | Precision Score                  | 89.13 %                 |
@@ -4846,7 +4846,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.83      | 0.78   | 0.80     | 12435      |
                 | 1                | 0.89      | 0.92   | 0.90     | 24773      |
@@ -4871,7 +4871,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 73.00 %                 |
-                | F1 Score                         | 84.60 %                 |
+                | F1_Score                         | 84.60 %                 |
                 | Accuracy Score                   | 85.96 %                 |
                 | Recall Score                     | 77.30 %                 |
                 | Precision Score                  | 93.43 %                 |
@@ -4890,7 +4890,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.81      | 0.95   | 0.87     | 30837      |
                 | 1                | 0.93      | 0.77   | 0.85     | 30717      |
@@ -4916,7 +4916,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 72.98 %                 |
-                | F1 Score                         | 84.81 %                 |
+                | F1_Score                         | 84.81 %                 |
                 | Accuracy Score                   | 85.91 %                 |
                 | Recall Score                     | 77.56 %                 |
                 | Precision Score                  | 93.55 %                 |
@@ -4935,7 +4935,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.80      | 0.94   | 0.87     | 30669      |
                 | 1                | 0.94      | 0.78   | 0.85     | 31549      |
@@ -4966,7 +4966,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 23.24 %                 |
-                | F1 Score                         | 62.52 %                 |
+                | F1_Score                         | 62.52 %                 |
                 | Accuracy Score                   | 61.63 %                 |
                 | Recall Score                     | 63.21 %                 |
                 | Precision Score                  | 61.84 %                 |
@@ -4985,7 +4985,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.61      | 0.60   | 0.61     | 8119       |
                 | 1                | 0.62      | 0.63   | 0.63     | 8323       |
@@ -5011,7 +5011,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 35.04 %                 |
-                | F1 Score                         | 68.62 %                 |
+                | F1_Score                         | 68.62 %                 |
                 | Accuracy Score                   | 67.46 %                 |
                 | Recall Score                     | 71.29 %                 |
                 | Precision Score                  | 66.14 %                 |
@@ -5030,7 +5030,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.69      | 0.64   | 0.66     | 30837      |
                 | 1                | 0.66      | 0.71   | 0.69     | 30717      |
@@ -5056,7 +5056,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 70.78 %                 |
-                | F1 Score                         | 82.52 %                 |
+                | F1_Score                         | 82.52 %                 |
                 | Accuracy Score                   | 84.50 %                 |
                 | Recall Score                     | 73.29 %                 |
                 | Precision Score                  | 94.41 %                 |
@@ -5075,7 +5075,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.78      | 0.96   | 0.86     | 30837      |
                 | 1                | 0.94      | 0.73   | 0.83     | 30717      |
@@ -5101,7 +5101,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 68.87 %                 |
-                | F1 Score                         | 89.21 %                 |
+                | F1_Score                         | 89.21 %                 |
                 | Accuracy Score                   | 85.87 %                 |
                 | Recall Score                     | 87.69 %                 |
                 | Precision Score                  | 90.78 %                 |
@@ -5120,7 +5120,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.77      | 0.82   | 0.80     | 12435      |
                 | 1                | 0.91      | 0.88   | 0.89     | 24773      |
@@ -5145,7 +5145,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 70.73 %                 |
-                | F1 Score                         | 82.42 %                 |
+                | F1_Score                         | 82.42 %                 |
                 | Accuracy Score                   | 84.45 %                 |
                 | Recall Score                     | 73.05 %                 |
                 | Precision Score                  | 94.54 %                 |
@@ -5164,7 +5164,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.78      | 0.96   | 0.86     | 30837      |
                 | 1                | 0.95      | 0.73   | 0.82     | 30717      |
@@ -5189,7 +5189,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 71.58 %                 |
-                | F1 Score                         | 83.00 %                 |
+                | F1_Score                         | 83.00 %                 |
                 | Accuracy Score                   | 84.76 %                 |
                 | Recall Score                     | 73.42 %                 |
                 | Precision Score                  | 95.47 %                 |
@@ -5208,7 +5208,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.78      | 0.96   | 0.86     | 30669      |
                 | 1                | 0.95      | 0.73   | 0.83     | 31549      |
@@ -5270,7 +5270,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 00.00 %                 |
-                | F1 Score                         | 00.00 %                 |
+                | F1_Score                         | 00.00 %                 |
                 | Accuracy Score                   | 50.35 %                 |
                 | Recall Score                     | 00.00 %                 |
                 | Precision Score                  | 00.00 %                 |
@@ -5289,7 +5289,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.50      | 1.00   | 0.67     | 1870       |
                 | 1                | 0.00      | 0.00   | 0.00     | 1844       |
@@ -5314,7 +5314,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 00.00 %                 |
-                | F1 Score                         | 00.00 %                 |
+                | F1_Score                         | 00.00 %                 |
                 | Accuracy Score                   | 49.91 %                 |
                 | Recall Score                     | 00.00 %                 |
                 | Precision Score                  | 00.00 %                 |
@@ -5333,7 +5333,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.50      | 1.00   | 0.67     | 355992     |
                 | 1                | 0.00      | 0.00   | 0.00     | 357264     |
@@ -5358,7 +5358,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 00.00 %                 |
-                | F1 Score                         | 00.00 %                 |
+                | F1_Score                         | 00.00 %                 |
                 | Accuracy Score                   | 49.91 %                 |
                 | Recall Score                     | 00.00 %                 |
                 | Precision Score                  | 00.00 %                 |
@@ -5377,7 +5377,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.50      | 1.00   | 0.67     | 355992     |
                 | 1                | 0.00      | 0.00   | 0.00     | 357264     |
@@ -5402,7 +5402,7 @@ def Info():
                 | Metric                           | Score                    |
                 |----------------------------------|--------------------------|
                 | Matthews Correlation Coefficient | 00.00 %                  |
-                | F1 Score                         | 00.00 %                  |
+                | F1_Score                         | 00.00 %                  |
                 | Accuracy Score                   | 78.72 %                  |
                 | Recall Score                     | 00.00 %                  |
                 | Precision Score                  | 00.00 %                  |
@@ -5421,7 +5421,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support   |
+                |                  | Precision | Recall | F1_Score | Support   |
                 |------------------|-----------|--------|----------|-----------|
                 | 0                | 0.79      | 1.00   | 0.88     | 355153    |
                 | 1                | 0.00      | 0.00   | 0.00     | 96024     |
@@ -5446,7 +5446,7 @@ def Info():
                 | Metric                           | Score                   |
                 |----------------------------------|-------------------------|
                 | Matthews Correlation Coefficient | 00.00 %                 |
-                | F1 Score                         | 00.00 %                 |
+                | F1_Score                         | 00.00 %                 |
                 | Accuracy Score                   | 49.91 %                 |
                 | Recall Score                     | 00.00 %                 |
                 | Precision Score                  | 00.00 %                 |
@@ -5465,7 +5465,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.50      | 1.00   | 0.67     | 355992     |
                 | 1                | 0.00      | 0.00   | 0.00     | 357264     |
@@ -5490,7 +5490,7 @@ def Info():
                 | Metric                           | Score                    |
                 |----------------------------------|--------------------------|
                 | Matthews Correlation Coefficient | 00.00 %                  |
-                | F1 Score                         | 66.76 %                  |
+                | F1_Score                         | 66.76 %                  |
                 | Accuracy Score                   | 50.10 %                  |
                 | Recall Score                     | 100.0 %                  |
                 | Precision Score                  | 50.10 %                  |
@@ -5508,7 +5508,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.00      | 0.00   | 0.00     | 356202     |
                 | 1                | 0.50      | 1.00   | 0.67     | 356427     |
@@ -5539,7 +5539,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 90.47 %                   |
-                | F1 Score                         | 95.21 %                   |
+                | F1_Score                         | 95.21 %                   |
                 | Accuracy Score                   | 95.23 %                   |
                 | Recall Score                     | 95.50 %                   |
                 | Precision Score                  | 94.93 %                   |
@@ -5558,7 +5558,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.96      | 0.95   | 0.95     | 1870       |
                 | 1                | 0.95      | 0.95   | 0.95     | 1844       |
@@ -5583,7 +5583,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 99.82 %                   |
-                | F1 Score                         | 99.91 %                   |
+                | F1_Score                         | 99.91 %                   |
                 | Accuracy Score                   | 99.91 %                   |
                 | Recall Score                     | 100.0 %                   |
                 | Precision Score                  | 99.82 %                   |
@@ -5602,7 +5602,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 355992     |
                 | 1                | 1.00      | 1.00   | 1.00     | 357264     |
@@ -5627,7 +5627,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 97.31 %                   |
-                | F1 Score                         | 98.66 %                   |
+                | F1_Score                         | 98.66 %                   |
                 | Accuracy Score                   | 98.65 %                   |
                 | Recall Score                     | 99.27 %                   |
                 | Precision Score                  | 98.06 %                   |
@@ -5646,7 +5646,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.99      | 0.98   | 0.99     | 355992     |
                 | 1                | 0.98      | 0.99   | 0.99     | 357264     |
@@ -5672,7 +5672,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 99.03 %                   |
-                | F1 Score                         | 99.24 %                   |
+                | F1_Score                         | 99.24 %                   |
                 | Accuracy Score                   | 99.67 %                   |
                 | Recall Score                     | 99.56 %                   |
                 | Precision Score                  | 98.91 %                   |
@@ -5691,7 +5691,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 355153     |
                 | 1                | 0.99      | 1.00   | 0.99     | 96024      |
@@ -5716,7 +5716,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 99.40 %                   |
-                | F1 Score                         | 99.70 %                   |
+                | F1_Score                         | 99.70 %                   |
                 | Accuracy Score                   | 99.70 %                   |
                 | Recall Score                     | 99.83 %                   |
                 | Precision Score                  | 99.57 %                   |
@@ -5735,7 +5735,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 355992     |
                 | 1                | 1.00      | 1.00   | 1.00     | 357264     |
@@ -5761,7 +5761,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 97.48 %                   |
-                | F1 Score                         | 98.75 %                   |
+                | F1_Score                         | 98.75 %                   |
                 | Accuracy Score                   | 98.74 %                   |
                 | Recall Score                     | 99.37 %                   |
                 | Precision Score                  | 98.13 %                   |
@@ -5780,7 +5780,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.99      | 0.98   | 0.99     | 355984     |
                 | 1                | 0.98      | 0.99   | 0.99     | 357470     |
@@ -5811,7 +5811,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 90.94 %                   |
-                | F1 Score                         | 95.34 %                   |
+                | F1_Score                         | 95.34 %                   |
                 | Accuracy Score                   | 95.45 %                   |
                 | Recall Score                     | 93.82 %                   |
                 | Precision Score                  | 96.92 %                   |
@@ -5830,7 +5830,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.94      | 0.97   | 0.96     | 1870       |
                 | 1                | 0.97      | 0.94   | 0.95     | 1844       |
@@ -5855,7 +5855,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 99.96 %                   |
-                | F1 Score                         | 99.98 %                   |
+                | F1_Score                         | 99.98 %                   |
                 | Accuracy Score                   | 99.98 %                   |
                 | Recall Score                     | 100.0 %                   |
                 | Precision Score                  | 99.96 %                   |
@@ -5874,7 +5874,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 355992     |
                 | 1                | 1.00      | 1.00   | 1.00     | 357264     |
@@ -5899,7 +5899,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 99.68 %                   |
-                | F1 Score                         | 99.84 %                   |
+                | F1_Score                         | 99.84 %                   |
                 | Accuracy Score                   | 99.84 %                   |
                 | Recall Score                     | 99.98 %                   |
                 | Precision Score                  | 99.70 %                   |
@@ -5918,7 +5918,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 355992     |
                 | 1                | 1.00      | 1.00   | 1.00     | 357264     |
@@ -5943,7 +5943,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 99.91 %                   |
-                | F1 Score                         | 99.93 %                   |
+                | F1_Score                         | 99.93 %                   |
                 | Accuracy Score                   | 99.97 %                   |
                 | Recall Score                     | 99.95 %                   |
                 | Precision Score                  | 99.92 %                   |
@@ -5962,7 +5962,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 355153     |
                 | 1                | 1.00      | 1.00   | 1.00     | 96024      |
@@ -5987,7 +5987,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 99.80 %                   |
-                | F1 Score                         | 99.90 %                   |
+                | F1_Score                         | 99.90 %                   |
                 | Accuracy Score                   | 99.90 %                   |
                 | Recall Score                     | 99.85 %                   |
                 | Precision Score                  | 99.94 %                   |
@@ -6006,7 +6006,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 355992     |
                 | 1                | 1.00      | 1.00   | 1.00     | 357264     |
@@ -6032,7 +6032,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 99.69 %                   |
-                | F1 Score                         | 99.84 %                   |
+                | F1_Score                         | 99.84 %                   |
                 | Accuracy Score                   | 99.84 %                   |
                 | Recall Score                     | 99.97 %                   |
                 | Precision Score                  | 99.72 %                   |
@@ -6051,7 +6051,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 356202     |
                 | 1                | 1.00      | 1.00   | 1.00     | 356427     |
@@ -6082,7 +6082,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 93.43 %                   |
-                | F1 Score                         | 96.71 %                   |
+                | F1_Score                         | 96.71 %                   |
                 | Accuracy Score                   | 96.72 %                   |
                 | Recall Score                     | 97.18 %                   |
                 | Precision Score                  | 96.24 %                   |
@@ -6101,7 +6101,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.97      | 0.96   | 0.97     | 1870       |
                 | 1                | 0.96      | 0.97   | 0.97     | 1844       |
@@ -6126,7 +6126,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 98.91 %                   |
-                | F1 Score                         | 99.46 %                   |
+                | F1_Score                         | 99.46 %                   |
                 | Accuracy Score                   | 99.45 %                   |
                 | Recall Score                     | 100.0 %                   |
                 | Precision Score                  | 98.92 %                   |
@@ -6145,7 +6145,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 0.99   | 0.99     | 355992     |
                 | 1                | 0.99      | 1.00   | 0.99     | 357264     |
@@ -6171,7 +6171,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 95.39 %                   |
-                | F1 Score                         | 97.67 %                   |
+                | F1_Score                         | 97.67 %                   |
                 | Accuracy Score                   | 97.69 %                   |
                 | Recall Score                     | 96.85 %                   |
                 | Precision Score                  | 98.51 %                   |
@@ -6190,7 +6190,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.97      | 0.99   | 0.98     | 355992     |
                 | 1                | 0.99      | 0.97   | 0.98     | 357264     |
@@ -6216,7 +6216,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 99.15 %                   |
-                | F1 Score                         | 99.33 %                   |
+                | F1_Score                         | 99.33 %                   |
                 | Accuracy Score                   | 99.72 %                   |
                 | Recall Score                     | 99.23 %                   |
                 | Precision Score                  | 99.43 %                   |
@@ -6235,7 +6235,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 355153     |
                 | 1                | 0.99      | 0.99   | 0.99     | 96024      |
@@ -6260,7 +6260,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 99.40 %                   |
-                | F1 Score                         | 99.70 %                   |
+                | F1_Score                         | 99.70 %                   |
                 | Accuracy Score                   | 99.70 %                   |
                 | Recall Score                     | 99.83 %                   |
                 | Precision Score                  | 99.57 %                   |
@@ -6279,7 +6279,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 355992     |
                 | 1                | 1.00      | 1.00   | 1.00     | 357264     |
@@ -6304,7 +6304,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 95.65 %                   |
-                | F1 Score                         | 97.80 %                   |
+                | F1_Score                         | 97.80 %                   |
                 | Accuracy Score                   | 97.82 %                   |
                 | Recall Score                     | 97.05 %                   |
                 | Precision Score                  | 98.57 %                   |
@@ -6323,7 +6323,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.97      | 0.99   | 0.98     | 356202     |
                 | 1                | 0.99      | 0.97   | 0.98     | 356427     |
@@ -6410,7 +6410,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 91.04 %                   |
-                | F1 Score                         | 95.52 %                   |
+                | F1_Score                         | 95.52 %                   |
                 | Accuracy Score                   | 95.52 %                   |
                 | Recall Score                     | 95.03 %                   |
                 | Precision Score                  | 96.02 %                   |
@@ -6429,7 +6429,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support |
+                |                  | Precision | Recall | F1_Score | Support |
                 |------------------|-----------|--------|----------|---------|
                 | 0                | 0.95      | 0.96   | 0.96     | 1629    |
                 | 1                | 0.96      | 0.95   | 0.96     | 1650    |
@@ -6454,7 +6454,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 90.50 %                   |
-                | F1 Score                         | 95.23 %                   |
+                | F1_Score                         | 95.23 %                   |
                 | Accuracy Score                   | 95.25 %                   |
                 | Recall Score                     | 94.82 %                   |
                 | Precision Score                  | 95.65 %                   |
@@ -6473,7 +6473,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support |
+                |                  | Precision | Recall | F1_Score | Support |
                 |------------------|-----------|--------|----------|---------|
                 | 0                | 0.95      | 0.96   | 0.95     | 1269629 |
                 | 1                | 0.96      | 0.95   | 0.95     | 1272134 |
@@ -6498,7 +6498,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 92.25%                    |
-                | F1 Score                         | 96.14%                    |
+                | F1_Score                         | 96.14%                    |
                 | Accuracy Score                   | 96.12%                    |
                 | Recall Score                     | 96.58%                    |
                 | Precision Score                  | 95.71%                    |
@@ -6517,7 +6517,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support |
+                |                  | Precision | Recall | F1_Score | Support |
                 |------------------|-----------|--------|----------|---------|
                 | 0                | 0.97      | 0.96   | 0.96     | 1269629 |
                 | 1                | 0.96      | 0.97   | 0.96     | 1272134 |
@@ -6542,7 +6542,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 92.54 %                   |
-                | F1 Score                         | 96.29 %                   |
+                | F1_Score                         | 96.29 %                   |
                 | Accuracy Score                   | 96.27 %                   |
                 | Recall Score                     | 96.37 %                   |
                 | Precision Score                  | 96.20 %                   |
@@ -6561,7 +6561,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 0.96      | 0.96   | 0.96     | 1263142    |
                 | 1                | 0.96      | 0.96   | 0.96     | 1271407    |
@@ -6586,7 +6586,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 97.19%                    |
-                | F1 Score                         | 98.60%                    |
+                | F1_Score                         | 98.60%                    |
                 | Accuracy Score                   | 98.60%                    |
                 | Recall Score                     | 98.56%                    |
                 | Precision Score                  | 98.64%                    |
@@ -6605,7 +6605,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support |
+                |                  | Precision | Recall | F1_Score | Support |
                 |------------------|-----------|--------|----------|---------|
                 | 0                | 0.99      | 0.99   | 0.99     | 1269629 |
                 | 1                | 0.99      | 0.99   | 0.99     | 1272134 |
@@ -6630,7 +6630,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 92.98%                    |
-                | F1 Score                         | 96.50%                    |
+                | F1_Score                         | 96.50%                    |
                 | Accuracy Score                   | 96.49%                    |
                 | Recall Score                     | 96.66%                    |
                 | Precision Score                  | 96.34%                    |
@@ -6649,7 +6649,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support |
+                |                  | Precision | Recall | F1_Score | Support |
                 |------------------|-----------|--------|----------|---------|
                 | 0                | 0.97      | 0.96   | 0.96     | 1270820 |
                 | 1                | 0.96      | 0.97   | 0.96     | 1271034 |
@@ -6680,7 +6680,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 97.62%                    |
-                | F1 Score                         | 98.82%                    |
+                | F1_Score                         | 98.82%                    |
                 | Accuracy Score                   | 98.81%                    |
                 | Recall Score                     | 98.97%                    |
                 | Precision Score                  | 98.67%                    |
@@ -6699,7 +6699,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support |
+                |                  | Precision | Recall | F1_Score | Support |
                 |------------------|-----------|--------|----------|---------|
                 | 0                | 0.99      | 0.99   | 0.99     | 1629    |
                 | 1                | 0.99      | 0.99   | 0.99     | 1650    |
@@ -6724,7 +6724,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 99.98 %                   |
-                | F1 Score                         | 99.99 %                   |
+                | F1_Score                         | 99.99 %                   |
                 | Accuracy Score                   | 99.99 %                   |
                 | Recall Score                     | 100.0 %                   |
                 | Precision Score                  | 99.98 %                   |
@@ -6743,7 +6743,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support |
+                |                  | Precision | Recall | F1_Score | Support |
                 |------------------|-----------|--------|----------|---------|
                 | 0                | 1.00      | 1.00   | 1.00     | 1269629 |
                 | 1                | 1.00      | 1.00   | 1.00     | 1272134 |
@@ -6768,7 +6768,7 @@ def Info():
                 | Metric                           | Score                      |
                 |----------------------------------|----------------------------|
                 | Matthews Correlation Coefficient | 99.89 %                    |
-                | F1 Score                         | 99.95 %                    |
+                | F1_Score                         | 99.95 %                    |
                 | Accuracy Score                   | 99.95 %                    |
                 | Recall Score                     | 99.97 %                    |
                 | Precision Score                  | 99.92 %                    |
@@ -6787,7 +6787,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support |
+                |                  | Precision | Recall | F1_Score | Support |
                 |------------------|-----------|--------|----------|---------|
                 | 0                | 1.00      | 1.00   | 1.00     | 1269629 |
                 | 1                | 1.00      | 1.00   | 1.00     | 1272134 |
@@ -6813,7 +6813,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 99.90 %                   |
-                | F1 Score                         | 99.95 %                   |
+                | F1_Score                         | 99.95 %                   |
                 | Accuracy Score                   | 99.95 %                   |
                 | Recall Score                     | 99.97 %                   |
                 | Precision Score                  | 99.93 %                   |
@@ -6832,7 +6832,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 1263142    |
                 | 1                | 1.00      | 1.00   | 1.00     | 1271407    |
@@ -6857,7 +6857,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 99.94 %                   |
-                | F1 Score                         | 99.97 %                   |
+                | F1_Score                         | 99.97 %                   |
                 | Accuracy Score                   | 99.97 %                   |
                 | Recall Score                     | 99.98 %                   |
                 | Precision Score                  | 99.95 %                   |
@@ -6876,7 +6876,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 1269629    |
                 | 1                | 1.00      | 1.00   | 1.00     | 1272134    |
@@ -6901,7 +6901,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 99.90 %                   |
-                | F1 Score                         | 99.95 %                   |
+                | F1_Score                         | 99.95 %                   |
                 | Accuracy Score                   | 99.95 %                   |
                 | Recall Score                     | 99.98 %                   |
                 | Precision Score                  | 99.93 %                   |
@@ -6920,7 +6920,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 1270820    |
                 | 1                | 1.00      | 1.00   | 1.00     | 1271034    |
@@ -6952,7 +6952,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 98.60 %                   |
-                | F1 Score                         | 99.30 %                   |
+                | F1_Score                         | 99.30 %                   |
                 | Accuracy Score                   | 99.30 %                   |
                 | Recall Score                     | 99.58 %                   |
                 | Precision Score                  | 99.04 %                   |
@@ -6971,7 +6971,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 0.99   | 0.99     | 1629       |
                 | 1                | 0.99      | 1.00   | 0.99     | 1650       |
@@ -6996,7 +6996,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 99.99 %                   |
-                | F1 Score                         | 99.99 %                   |
+                | F1_Score                         | 99.99 %                   |
                 | Accuracy Score                   | 99.99 %                   |
                 | Recall Score                     | 100.0 %                   |
                 | Precision Score                  | 99.99 %                   |
@@ -7015,7 +7015,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 1269629    |
                 | 1                | 1.00      | 1.00   | 1.00     | 1272134    |
@@ -7040,7 +7040,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 99.92 %                   |
-                | F1 Score                         | 99.96 %                   |
+                | F1_Score                         | 99.96 %                   |
                 | Accuracy Score                   | 99.96 %                   |
                 | Recall Score                     | 99.99 %                   |
                 | Precision Score                  | 99.92 %                   |
@@ -7059,7 +7059,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 1269629    |
                 | 1                | 1.00      | 1.00   | 1.00     | 1272134    |
@@ -7084,7 +7084,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 99.93 %                   |
-                | F1 Score                         | 99.97 %                   |
+                | F1_Score                         | 99.97 %                   |
                 | Accuracy Score                   | 99.97 %                   |
                 | Recall Score                     | 99.99 %                   |
                 | Precision Score                  | 99.93 %                   |
@@ -7103,7 +7103,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 1263142    |
                 | 1                | 1.00      | 1.00   | 1.00     | 1271407    |
@@ -7128,7 +7128,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 99.97 %                   |
-                | F1 Score                         | 99.98 %                   |
+                | F1_Score                         | 99.98 %                   |
                 | Accuracy Score                   | 99.98 %                   |
                 | Recall Score                     | 99.99 %                   |
                 | Precision Score                  | 99.98 %                   |
@@ -7147,7 +7147,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 1269629    |
                 | 1                | 1.00      | 1.00   | 1.00     | 1272134    |
@@ -7172,7 +7172,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 99.92 %                   |
-                | F1 Score                         | 99.96 %                   |
+                | F1_Score                         | 99.96 %                   |
                 | Accuracy Score                   | 99.96 %                   |
                 | Recall Score                     | 99.99 %                   |
                 | Precision Score                  | 99.92 %                   |
@@ -7191,7 +7191,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 1270820    |
                 | 1                | 1.00      | 1.00   | 1.00     | 1271034    |
@@ -7222,7 +7222,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 98.78 %                   |
-                | F1 Score                         | 99.40 %                   |
+                | F1_Score                         | 99.40 %                   |
                 | Accuracy Score                   | 99.39 %                   |
                 | Recall Score                     | 99.64 %                   |
                 | Precision Score                  | 99.16 %                   |
@@ -7241,7 +7241,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 0.99   | 0.99     | 1629       |
                 | 1                | 0.99      | 1.00   | 0.99     | 1650       |
@@ -7266,7 +7266,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 99.87 %                   |
-                | F1 Score                         | 99.94 %                   |
+                | F1_Score                         | 99.94 %                   |
                 | Accuracy Score                   | 99.94 %                   |
                 | Recall Score                     | 100.0 %                   |
                 | Precision Score                  | 99.87 %                   |
@@ -7285,7 +7285,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 1269629    |
                 | 1                | 1.00      | 1.00   | 1.00     | 1272134    |
@@ -7311,7 +7311,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 99.70 %                   |
-                | F1 Score                         | 99.85 %                   |
+                | F1_Score                         | 99.85 %                   |
                 | Accuracy Score                   | 99.85 %                   |
                 | Recall Score                     | 99.91 %                   |
                 | Precision Score                  | 99.79 %                   |
@@ -7330,7 +7330,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 1269629    |
                 | 1                | 1.00      | 1.00   | 1.00     | 1272134    |
@@ -7356,7 +7356,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 99.77 %                   |
-                | F1 Score                         | 99.88 %                   |
+                | F1_Score                         | 99.88 %                   |
                 | Accuracy Score                   | 99.88 %                   |
                 | Recall Score                     | 99.93 %                   |
                 | Precision Score                  | 99.84 %                   |
@@ -7375,7 +7375,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 1263142    |
                 | 1                | 1.00      | 1.00   | 1.00     | 1271407    |
@@ -7400,7 +7400,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 99.91 %                   |
-                | F1 Score                         | 99.96 %                   |
+                | F1_Score                         | 99.96 %                   |
                 | Accuracy Score                   | 99.96 %                   |
                 | Recall Score                     | 99.99 %                   |
                 | Precision Score                  | 99.92 %                   |
@@ -7419,7 +7419,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 1269629    |
                 | 1                | 1.00      | 1.00   | 1.00     | 1272134    |
@@ -7444,7 +7444,7 @@ def Info():
                 | Metric                           | Score                     |
                 |----------------------------------|---------------------------|
                 | Matthews Correlation Coefficient | 99.67 %                   |
-                | F1 Score                         | 99.83 %                   |
+                | F1_Score                         | 99.83 %                   |
                 | Accuracy Score                   | 99.83 %                   |
                 | Recall Score                     | 99.92 %                   |
                 | Precision Score                  | 99.75 %                   |
@@ -7463,7 +7463,7 @@ def Info():
             with col2:
                 st.markdown("Classification Report")
                 st.markdown("""
-                |                  | Precision | Recall | F1 Score | Support    |
+                |                  | Precision | Recall | F1_Score | Support    |
                 |------------------|-----------|--------|----------|------------|
                 | 0                | 1.00      | 1.00   | 1.00     | 1270820    |
                 | 1                | 1.00      | 1.00   | 1.00     | 1271034    |
