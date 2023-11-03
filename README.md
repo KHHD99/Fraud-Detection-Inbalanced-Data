@@ -1,7 +1,7 @@
 # Fraud-Detection-Inbalanced-Data
 Fraud detection in a contexte of inbalanced data using 4 algorithms, 6 resampling methods, and 6 datasets.
 
-The deployed web app is live at ([fraud-detection-inbalanced-data-web app](https://fraud-detection-inbalanced-data.streamlit.app/))
+The deployed web app is live at ([fraud-detection-inbalanced-data](https://fraud-detection-inbalanced-data.streamlit.app/))
 
 This web application predicts the class of a bank transaction as fraudulent or legitimate, using 4 algorithms (LogisticRegression, DecisionTreeClassifier, RandomForestClassifier, XGBClassifier), and different resampling methods to deal with the imbalance problem. A cost-sensitive method is used to improve the algorithms in order to reduce the number of false classifications (false positives, false negatives).
 
